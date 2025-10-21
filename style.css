@@ -1,0 +1,145 @@
+header{
+    border: solid 2px red;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vazio{
+    border: solid 2px red;
+    margin: 3px;
+    height: 70px;
+    width: 40%;
+}
+
+.logo{
+    border: solid 2px red;
+    margin: 3px;
+    height: 70px;
+    width: 60%;
+}
+
+nav{
+    border: solid 2px red;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1px;
+}
+
+.pagina{
+    border: solid 2px red;
+    margin: 3px;
+    height: 70px;
+    width: 60%;
+}
+
+.lupa{
+    border: solid 2px red;
+    margin: 3px;
+    height: 70px;
+    width: 5%;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+}
+
+.sec1{
+    border: solid 2px red;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto1{
+    border: solid 2px red;
+    height: 450px;
+    width: 40%;
+}
+
+.imagem1{
+    border: solid 2px red;
+    height: 400px;
+    width: 50%;
+}
+
+.sec2{
+    border: solid 2px red;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.marvel{
+    border: solid 2px red;
+    height: 250px;
+    width: 10%;
+}
+
+.dc{
+    border: solid 2px red;
+    height: 250px;
+    width: 10%;
+}
+
+.filmes{
+    border: solid 2px red;
+    height: 250px;
+    width: 10%;
+}
+
+.series{
+    border: solid 2px red;
+    height: 250px;
+    width: 10%;
+}
+
+.animacoes{
+    border: solid 2px red;
+    height: 250px;
+    width: 10%;
+}
+
+.sec3{
+    border: solid 2px red;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto2{
+    border: solid 2px red;
+    height: 450px;
+    width: 40%;
+}
+
+.imagem2{
+    border: solid 2px red;
+    height: 400px;
+    width: 50%;
+}
+
+footer{
+    border: solid 2px red;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nota{
+    border: solid 2px red;
+    height: 30px;
+    width: 20%;
+}
+
+.nome{
+    border: solid 2px red;
+    height: 30px;
+    width: 50%;
+}
