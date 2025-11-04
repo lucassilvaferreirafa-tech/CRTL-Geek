@@ -1,25 +1,30 @@
+body{
+    background-color: #57544f;
+}
+
 header{
-    border: solid 2px red;
+    background-color: black;
     height: 80px;
     display: flex;
     justify-content: space-around;
 }
 
 .logo{
-    border: solid 2px red;
     margin: 3px;
     height: 70px;
     width: 13%;
     display: flex;
     align-items: center;
+    background-color: #121010;
 }
 
 .nome{
     font-size: larger;
+    color: #ff3f3f;
 }
 
 .pagina{
-    border: solid 2px red;
+    background-color: #121010;
     margin: 3px;
     height: 70px;
     width: 35%;
@@ -35,7 +40,6 @@ header{
     padding: 0;
     width: 100%;
 }
-
 
 .pesquisa{
     border: solid 2px red;
@@ -59,7 +63,8 @@ main{
 }
 
 .sec1{
-    border: solid 2px red;
+    background-color: black;
+    margin-top: 5px;
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -67,19 +72,23 @@ main{
 }
 
 .texto1{
-    border: solid 2px red;
+    color: white;
     height: 450px;
     width: 40%;
 }
 
 .imagem1{
-    border: solid 2px red;
     height: 400px;
     width: 50%;
+    display: flex;
+}
+
+.imagem1 img{
+    width: 100%;
 }
 
 .sec2{
-    border: solid 2px red;
+    background-color: #425170;
     height: 350px;
     display: flex;
     justify-content: space-around;
@@ -87,37 +96,43 @@ main{
 }
 
 .marvel{
-    border: solid 2px red;
     height: 250px;
-    width: 10%;
+    width: 19%;
+    display: flex
+}
+
+.marvel img{
+    width: 100%;
 }
 
 .dc{
-    border: solid 2px red;
     height: 250px;
-    width: 10%;
+    width: 19%;
+    display: flex
+}
+
+.dc img{
+    width: 100%;
 }
 
 .filmes{
     border: solid 2px red;
     height: 250px;
-    width: 10%;
+    width: 19%;
 }
 
 .series{
     border: solid 2px red;
     height: 250px;
-    width: 10%;
+    width: 19%;
 }
 
-.animacoes{
-    border: solid 2px red;
-    height: 250px;
-    width: 10%;
+.series img{
+    width: ;
 }
 
 .sec3{
-    border: solid 2px red;
+    background-color: #b0312e;
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -125,15 +140,19 @@ main{
 }
 
 .texto2{
-    border: solid 2px red;
+    color: white;
     height: 450px;
     width: 40%;
 }
 
 .imagem2{
-    border: solid 2px red;
     height: 400px;
-    width: 50%;
+    width: 15%;
+    display: flex;
+}
+
+.imagem2 img{
+    width: 100%;
 }
 
 footer{
