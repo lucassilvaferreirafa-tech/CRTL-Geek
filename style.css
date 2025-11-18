@@ -1,7 +1,8 @@
 body{
-    background-color: #57544f;
+    background-color: #425170;
 }
 
+/* Cabeçalho */
 header{
     background-color: black;
     height: 80px;
@@ -47,17 +48,15 @@ header{
 .login img{
     height: 70px;
 }
+/* Fim do cabeçalho */
 
-main{
-    width: 100%;
-    height: 500px;
-}
-
+/* Página inicial */
 nav{
     background-color: black;
     height: 80px;
     display: flex;
     justify-content: space-around;
+    border-radius: 8px;
 }
 
 .pagina{
@@ -84,13 +83,6 @@ ul a{
     text-decoration: none;
 }
 
-.paisec2{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .sec1{
     background-color: black;
     margin-top: 3px;
@@ -98,6 +90,7 @@ ul a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 8px;
 }
 
 .texto1{
@@ -107,60 +100,66 @@ ul a{
 }
 
 .imagem1{
-    height: 400px;
+    height: 20vw;
     width: 50%;
     display: flex;
 }
 
-.paisec2{
+/*.paisec2{
     background-color: #323632;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 .sec2{
-
-    /* height: 350px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; */
-
-    background-color: #323632;
+    margin: 3px 3px;
+    background-color: #425170;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 8px;
 }
 
 .noticia1{
-    border: solid 2px red;
-    height: 250px;
+    height: 13vw;
     width: 30%;
     display: flex;
-    
 }
 
 .imgNoticia1{
-    background-image: url("/imagens/adlogo.jpeg");
+    background-image: url("/imagens/adlogov2.jpg");
     width: 100%;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .noticia2{
-    border: solid 2px red;
-    height: 250px;
+    height: 13vw;
     width: 30%;
     display: flex
 }
 
+.imgNoticia2{
+    background-image: url("/imagens/flash.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .noticia3{
-    border: solid 2px red;
-    height: 250px;
+    height: 13vw;
     width: 30%;
     display: flex;
+}
+
+.imgNoticia3{
+    background-image: url("/imagens/luffy.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .sec3{
@@ -169,6 +168,7 @@ ul a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 8px;
 }
 
 .texto2{
@@ -184,9 +184,30 @@ ul a{
 }
 
 .imagem2 img{
+    height: 20vw;
     width: 100%;
+    display: flex;
 }
 
+/* Fim da página inicial */
+
+/* Começo da página Sobre nós */
+.sec1_sobrenos{
+    background-color: black;
+    margin-top: 3px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto1_sobrenos{
+    color: white;
+    height: 450px;
+    width: 40%;
+}
+
+/* Footer */
 footer{
     background-color: #272525;
     height: 100px;
@@ -207,4 +228,16 @@ footer{
     color: #b0312e;
     height: 30px;
     width: 10%;
+}
+
+.filmes ul{
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.filmes ul a{
+    color: #b0312e;
 }
