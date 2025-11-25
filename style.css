@@ -50,6 +50,7 @@ header{
 }
 /* Fim do cabeçalho */
 
+
 /* Página inicial */
 nav{
     background-color: black;
@@ -104,14 +105,6 @@ ul a{
     width: 50%;
     display: flex;
 }
-
-/*.paisec2{
-    background-color: #323632;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
 
 .sec2{
     margin: 3px 3px;
@@ -189,7 +182,79 @@ ul a{
     display: flex;
 }
 
+.sec-teste{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.teste-img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/pt/3/30/Universo_Marvel.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 419px;
+    border-radius: 50%;
+    margin: 20px;
+    background-position: -109px -16px;
+}
+
+.teste-img1{
+    background-image: url("imagens/universodc.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 419px;
+    border-radius: 50%;
+    margin: 20px;
+    background-position: -213px -16px;
+}
+
+.teste-img2{
+    background-image: url("https://static.fnac-static.com/multimedia/Images/PT/Comete/12712/CCP_IMG_ORIGINAL/177939.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 419px;
+    border-radius: 50%;
+    margin: 20px;
+    background-position: -213px -16px;
+}
 /* Fim da página inicial */
+
+
+/* Começo da página de séries */
+.sec1_serie{
+    background-color: black;
+    margin-top: 3px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    width: 70%;
+}
+
+.texto1_serie{
+    color: white;
+    height: 250px;
+    width: 20%;
+}
+
+.noticia1_serie{
+    height: 20vw;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgNoticia1_serie{
+    background-image: url("/imagens/luffy.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 
 /* Começo da página Sobre nós */
 .sec1_sobrenos{
@@ -206,16 +271,38 @@ ul a{
     height: 450px;
     width: 40%;
 }
+/* Fim da página Sobre nós */
+
 
 /* Footer */
 footer{
     background-color: #272525;
-    height: 100px;
+    height: 130px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.div-rod{
+    border: solid white 1px;
+    width: 10%;
+    height: 110px;
+}
+
+.titulo-rod{
+    color: #b0312e;
+}
+
+.list-rod ul{
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+/* 
 .nota{
     font-size: larger;
     color: #b0312e;
@@ -240,4 +327,4 @@ footer{
 
 .filmes ul a{
     color: #b0312e;
-}
+} */
